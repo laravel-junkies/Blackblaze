@@ -1,0 +1,25 @@
+{
+  "name": "laravel-junkies/backblaze",
+  "description": "With Backblaze you can create Backups astonishingly easy.",
+  "keywords": ["tobymaxham", "backup", "backblaze", "filesystem", "storage"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "TobyMaxham",
+      "email": "git2016@maxham.de"
+    }
+  ],
+  "homepage": "https://maxham.de",
+  "support": {
+    "issues": "https://github.com/laravel-junkies/Blackblaze/issues",
+    "source": "https://github.com/laravel-junkies/Blackblaze"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaraJunkie\\Blackblaze\\": "src/"
+    }
+  },
+  "require": {
+    "ukn0me/b2-api": "dev-master"
+  }
+}
