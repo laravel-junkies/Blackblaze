@@ -16,7 +16,7 @@ With this package you can easily create Backblaze with the offical API of [Backb
 ### Create a Backup
 
 ```php
-Backblaze::backup($filepath);
+Backblaze::backup($filePath, $bucketID = null);
 ```
 
 
